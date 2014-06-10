@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:weightSum="16" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="8" >
+
+	        <ImageButton
+	            android:id="@+id/btn_spa"
+	            android:layout_width="110dp"
+	            android:layout_height="110dp"
+	            android:layout_gravity="center_vertical|center_horizontal"
+	            android:layout_weight="3"
+	            android:background="#ffffff"
+	            android:onClick="getSpaDictionary"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/spa" />
+	        
+	        <View android:layout_weight="2"
+	            android:layout_width="70dp"
+	            android:layout_height="70dp"/>
+
+	        <ImageButton
+	            android:id="@+id/btn_eng"
+	            android:layout_width="110dp"
+	            android:layout_height="110dp"
+	            android:layout_weight="3"
+	            android:background="#ffffff"
+	            android:onClick="getEngDictionary"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/eng" />
+	        
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="8" >
+
+            <ImageButton
+                android:id="@+id/btn_por"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="3"
+	            android:background="#ffffff"
+                android:onClick="getPorDictionary"
+                android:scaleType="fitCenter"
+                android:src="@drawable/por" />
+	        
+	        <View android:layout_weight="2"
+	            android:layout_width="70dp"
+	            android:layout_height="70dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_ita"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="3"
+	            android:background="#ffffff"
+                android:onClick="getItaDictionary"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ita" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="8" >
+
+            <ImageButton
+                android:id="@+id/btn_fre"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="3"
+	            android:background="#ffffff"
+                android:onClick="getFreDictionary"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fre" />
+	        
+	        <View android:layout_weight="2"
+	            android:layout_width="70dp"
+	            android:layout_height="70dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_jap"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="3"
+	            android:background="#ffffff"
+                android:onClick="getJapDictionary"
+                android:scaleType="fitCenter"
+                android:src="@drawable/jap" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="8" >
+
+	        <ImageButton
+	            android:id="@+id/btn_pol"
+	            android:layout_width="110dp"
+	            android:layout_height="110dp"
+	            android:layout_gravity="center_vertical|center_horizontal"
+	            android:layout_weight="3"
+	            android:background="#ffffff"
+	            android:onClick="getPolDictionary"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/pol" />
+	        
+	        <View android:layout_weight="2"
+	            android:layout_width="70dp"
+	            android:layout_height="70dp"/>
+	
+	        <ImageButton
+	            android:id="@+id/btn_hin"
+	            android:layout_width="110dp"
+	            android:layout_height="110dp"
+	            android:layout_gravity="center_vertical|center_horizontal"
+	            android:layout_weight="3"
+	            android:background="#ffffff"
+	            android:onClick="getHinDictionary"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/hin" />
+	        
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
